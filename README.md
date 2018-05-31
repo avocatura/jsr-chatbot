@@ -11,12 +11,12 @@
 
 ### Required
 
-* Have the AI respond to user input
-* Do at least 3 different things
-* One of the commands must utilize the list of people in the class to send a reply
+* Have the AI respond to user input CHECK
+* Do at least 3 different things CHECK
+* One of the commands must utilize the list of people in the class to send a reply CHECK
 * Use at least 1 conditional to change the response
 * Leverage a for loop to iterate over a collection
-* Use a random component
+* Use a random component CHECK
 * Go above and beyond simple `if/else` statements
 
 ### Stretch Goals
@@ -30,3 +30,17 @@
 * A working chatbot hosted somewhere publicly accessible (CodePen, Github Pages, etc.)
 * A new git respository containing your code
 * A `README.md` file with explanations of what your bot does, what commands it responds to, the approach taken, unsolved problems, etc.
+
+-----------
+
+The Chatbot opens with the messege "Good Morning, Dave"
+When submitted, the form clears.
+
+The Chatbot responds to three different messeges:
+"Good morning, Hal"
+"What's the best football team?"
+"Who's your favorite programmer, Hal?"
+
+In response to "What time is it?", Hal returns the time in military time.
+
+In response to "What's the date?", Hal returns the month, day and year.
