@@ -1,11 +1,11 @@
 
 var classList = ["Alexis", "Bernardo", "Josh", "Alex", "Andrew", "Brandon", "Colburn", "David", "Ejaz", "Joanna", "Kaitlyn", "Kalynne", "Katie", "Kevin", "Myriam", "Nikki", "Tenny", "Timothy"];
-var randStudent = classList[Math.floor(Math.random()*classList.length)]
-
-for (i = 0; i < classList.length; i++) {
-
+function randStudent() {
+  for (var i = 0; i < classList.length; i++) {
+    var student = classList[Math.floor(Math.random()*classList.length)];
+    return student; 
+  } 
 }
-
 var today = new Date();
 var months = ["Jaunary", "February", "March", "April", "May", "June", "July", "August", "september", "October", "November", "December"];
 var thisMonth = months[today.getMonth()];
@@ -33,8 +33,8 @@ function respondToMessage(message) {
       document.getElementById('hal').innerHTML += date + "<br/>";
   } else if (message == "What time is it?") {
       document.getElementById('hal').innerHTML += time + "<br/>";
-  } else if (message == "Who is your favorite programmer") {
-      document.getElementById('hal').innerHTML += randStudent + "<br/>";
+  } else if (message == "Who is your favorite programmer?") {
+      document.getElementById('hal').innerHTML += randStudent() + "<br/>";
   } else {
     document.getElementById('hal').innerHTML += "I'm sorry Dave, I didn't understand you. <br/>";
   };
