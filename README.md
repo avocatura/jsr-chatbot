@@ -1,33 +1,3 @@
-# Chatbot!
-
-## Our favorite AI nemesis, HAL9000 vs. Dave Bowman
-
-## Grading Rubric (Pass/Partial/Fail)
-
-### Required
-
-* Have the AI respond to user input CHECK
-* Do at least 3 different things CHECK
-* One of the commands must utilize the list of people in the class to send a reply CHECK
-* Use at least 1 conditional to change the response
-* Leverage a for loop to iterate over a collection CHECK
-* Use a random component CHECK
-* Go above and beyond simple `if/else` statements
-
-### Stretch Goals
-
-* Have 2 or more AIs responding based upon user input
-* Use a regular expression to parse and manipulate the response
-* Have a conversation between two AIs (without creating an infinite loop!)
-
-## Deliverables
-
-* A working chatbot hosted somewhere publicly accessible (CodePen, Github Pages, etc.)
-* A new git respository containing your code
-* A `README.md` file with explanations of what your bot does, what commands it responds to, the approach taken, unsolved problems, etc.
-
------------
-
 This Chatbot takes in user input and responds to simple commands. The response function is based on if/else statements.
 
 The Chatbot opens with the message "Good Morning, Dave"
